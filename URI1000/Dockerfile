@@ -7,8 +7,8 @@ FROM gcc:latest
 
 # These commands copy your files into the specified directory in the image
 # and set that as the working location
-COPY . /usr/src/uri_online_judge/hello_world/app
-WORKDIR /usr/src/uri_online_judge/hello_world/app
+COPY . /usr/src/uri_online_judge/uri-1000/app
+WORKDIR /usr/src/uri_online_judge/uri-1000/app
 
 # This command compiles your app using GCC, adjust for your source code
 RUN g++ -o app src/main.cpp
