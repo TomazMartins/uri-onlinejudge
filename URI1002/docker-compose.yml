@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   src:
-    image: datastructurealgorithms
+    image: uri-online-judge
     stdin_open: true
     tty: true
     build:
